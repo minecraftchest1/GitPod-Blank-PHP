@@ -8,7 +8,9 @@
 <body>
     <h1>It Works!</h1>
     <p>The site at www is live. Modify this page at <b>www/index.php</b>.</p>
-    <?php echo $_SERVER['SERVER_SIGNATURE']; ?>
-    <hr>
-    <h3>PHP info.</h3>
+    <footer>
+        <?php echo $_SERVER['SERVER_SIGNATURE']; ?>
+        <hr>
+        <h3>PHP info.</h3>
+    </footer>
 <?php phpinfo(); ?>
