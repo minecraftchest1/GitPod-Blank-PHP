@@ -10,7 +10,6 @@ ports:
 tasks:
   #- init: echo 'init script' # runs during prebuild
   #  command: echo 'start script'
-  - init: sudo apt install php
   - command: apachectl -f /workspace/GitPod-Blank-PHP/apache/apache.conf
 vscode:
   extensions:
